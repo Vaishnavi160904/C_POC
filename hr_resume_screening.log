@@ -1,0 +1,14 @@
+============================================================
+[2026-08-11 21:20:01] [INFO] [SYSTEM] HR Resume Screening System started
+[2026-08-11 21:20:01] [INFO] [AUTH] Application ready; awaiting signup or login
+[2026-08-11 21:20:10] [INFO] [AUTH] Signup successful; credential stored with unique salt and SHA-256 hash
+[2026-08-11 21:20:10] [INFO] [AUTH] Signup completed; redirecting user to login
+[2026-08-11 21:20:18] [INFO] [AUTH] Login successful
+[2026-08-11 21:20:18] [INFO] [MENU] HR main menu opened after successful login
+[2026-08-11 21:21:02] [INFO] [SHORTLIST] HR shortlist threshold set to 70%
+[2026-08-11 21:21:02] [INFO] [SHORTLIST] Automatic shortlisting completed
+[2026-08-11 21:21:02] [INFO] [REPORT] CSV report generated with explainable score components
+[2026-08-11 21:21:02] [INFO] [REPORT] TXT report generated with score breakdown
+[2026-08-11 21:21:02] [INFO] [REPORT] Full report generated with automatic shortlist threshold and status
+[2026-08-11 21:22:05] [INFO] [AUTH] User logout successful
+============================================================

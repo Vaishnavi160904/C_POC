@@ -1,0 +1,23 @@
+ALICE STRONG
+
+Email: alice.strong@example.com
+Phone: 9876500001
+
+College: Example Institute of Technology
+B.Tech Computer Science and Engineering
+
+4 years experience as a software developer
+
+Skills
+Python
+React
+MongoDB
+Git
+Docker
+
+Projects
+Inventory Management System
+Real Time Chat Application
+
+Certifications
+AWS Certified Developer

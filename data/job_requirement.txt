@@ -1,0 +1,24 @@
+C
+C++
+Java
+Python
+JavaScript
+SQL
+HTML
+CSS
+React
+Node.js
+FastAPI
+Spring
+Spring Boot
+MySQL
+PostgreSQL
+MongoDB
+Linux
+Windows
+Unit Testing
+pytest
+Selenium
+Postman
+Git
+GitHub

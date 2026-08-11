@@ -1,0 +1,30 @@
+ANANYA KRISHNAN
+
+Email: ananya.krishnan@example.com
+Phone: 9876500011
+
+College: PSG College of Technology
+B.Tech Computer Science and Engineering
+
+3 years experience as a software developer
+
+Skills
+Python
+React
+NodeJS
+MongoDB
+Git
+JavaScript
+SQL
+Flutter
+Firebase
+TensorFlow
+
+Projects
+Online Learning Platform
+Restaurant Table Booking System
+AI Resume Screening Tool
+
+Certifications
+AWS Cloud Practitioner
+React Developer Certification
