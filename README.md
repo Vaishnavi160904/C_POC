@@ -182,7 +182,11 @@ HR_Resume_Screening_System/
 Reading resume files - including converting PDFs via the `pdftotext`
 subprocess - is I/O/process-spawn bound and completely independent per file,
 so it's parallelized: `ReadResumesParallel()` (`src/parallel_reader.c`) reads
+<<<<<<< HEAD
 up to 8 resumes at once using a small POSIX-threads worker pool.
+=======
+up to 4 resumes at once using a small POSIX-threads worker pool.
+>>>>>>> 931690db4b496c0f25d92c94054677714538d9fa
 
 The analysis phase that follows (tokenizing, frequency counting,
 categorization, matching, scoring) is **intentionally not parallelized** -
@@ -210,7 +214,11 @@ packages) have full pthread support; Linux/WSL always does.
   category name, following lines are skills in it.
 - **Scoring weights**: `src/scoring.c` (currently Skill 50 + Projects 20 +
   Experience 15 + Education 10 + Certifications 5 = 100).
+<<<<<<< HEAD
 - **Shortlisting is controlled by the HR score threshold (for example, 70%). Candidates with Final Score >= threshold are shortlisted automatically.
+=======
+- **How many candidates get shortlisted**: `SelectTopCandidates(2)` in `main.c`.
+>>>>>>> 931690db4b496c0f25d92c94054677714538d9fa
 
 ## Code quality: running cppcheck / valgrind correctly
 

@@ -120,7 +120,11 @@ static void test_ExtractKnownSkills_performance_with_full_skill_list(void)
     /* Worst case for the phrase-matcher: every one of MAX_TECH_SKILLS
      * entries has to be searched for against a large text. */
     techSkillCount = 0;
+<<<<<<< HEAD
     for (int i = 0; i < MAX_TECH_SKILLS; i++) {
+=======
+    for (int i = 0; i < MAX_TECH_SKILLS && i < MAX_TECH_SKILLS; i++) {
+>>>>>>> 931690db4b496c0f25d92c94054677714538d9fa
         snprintf(techSkills[techSkillCount], MAX_WORD_LEN, "skillword%d", i);
         techSkillCount++;
     }

@@ -3,7 +3,10 @@
 
 /* Unit tests - one module tested in isolation per file */
 void RegisterUtilsTests(void);
+<<<<<<< HEAD
 void RegisterCoverageBoostTests(void);
+=======
+>>>>>>> 931690db4b496c0f25d92c94054677714538d9fa
 void RegisterAuthTests(void);
 void RegisterTokenizerTests(void);
 void RegisterStopwordsTests(void);

@@ -242,7 +242,10 @@ int ExtractEducation(const char *text)
                                             "Bachelor", "Master", "MCA", "BCA", "MSc", "BSc", "PhD"};
     c->degree[0] = '\0';
     c->college[0] = '\0';
+<<<<<<< HEAD
     int collegeFound = 0;
+=======
+>>>>>>> 931690db4b496c0f25d92c94054677714538d9fa
 
     char copy[8000];
     strncpy(copy, text, sizeof(copy) - 1);
@@ -264,12 +267,19 @@ int ExtractEducation(const char *text)
                 }
             }
         }
+<<<<<<< HEAD
         if (!collegeFound &&
             (StrCaseContains(trimmed, "College") || StrCaseContains(trimmed, "University") ||
              StrCaseContains(trimmed, "Institute"))) {
             strncpy(c->college, trimmed, sizeof(c->college) - 1);
             c->college[sizeof(c->college) - 1] = '\0';
             collegeFound = 1;
+=======
+        if (!c->college[0] &&
+            (StrCaseContains(trimmed, "College") || StrCaseContains(trimmed, "University") ||
+             StrCaseContains(trimmed, "Institute"))) {
+            strncpy(c->college, trimmed, sizeof(c->college) - 1);
+>>>>>>> 931690db4b496c0f25d92c94054677714538d9fa
         }
         line = strtok(NULL, "\n");
     }

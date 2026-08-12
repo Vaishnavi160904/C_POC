@@ -22,6 +22,7 @@ data/users.dat.cunit_backup*
 .DS_Store
 Thumbs.db
 *.tmp.txt
+<<<<<<< HEAD
 
 # GCC coverage artifacts
 *.gcda
@@ -30,3 +31,5 @@ Thumbs.db
 coverage_source.txt
 
 data/users.dat.coverage_backup
+=======
+>>>>>>> 931690db4b496c0f25d92c94054677714538d9fa

@@ -46,6 +46,30 @@ int ShortlistByScoreThreshold(int threshold)
     return selected;
 }
 
+<<<<<<< HEAD
+=======
+/* Assumes candidates[] is already sorted (RankCandidates() ran first). */
+int SelectTopCandidates(int topN)
+{
+    if (topN <= 0) {
+        printf("[shortlist] SelectTopCandidates: invalid count (%d), shortlisting 0 candidates\n", topN);
+        topN = 0;
+    }
+
+    int selected = 0;
+    for (int i = 0; i < candidateCount; i++) {
+        if (i < topN) {
+            candidates[i].shortlisted = 1;
+            selected++;
+        } else {
+            candidates[i].shortlisted = 0;
+        }
+    }
+    printf("[shortlist] SelectTopCandidates: %d of %d candidate(s) shortlisted\n", selected, candidateCount);
+    return selected;
+}
+
+>>>>>>> 931690db4b496c0f25d92c94054677714538d9fa
 int GenerateShortlist(void)
 {
     EnsureDirectoryExists("output");

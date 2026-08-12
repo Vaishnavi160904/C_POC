@@ -1,5 +1,32 @@
+<<<<<<< HEAD
 Python
 React
 MongoDB
 Git
 Docker
+=======
+C
+C++
+Java
+Python
+JavaScript
+SQL
+HTML
+CSS
+React
+Node.js
+FastAPI
+Spring
+Spring Boot
+MySQL
+PostgreSQL
+MongoDB
+Linux
+Windows
+Unit Testing
+pytest
+Selenium
+Postman
+Git
+GitHub
+>>>>>>> 931690db4b496c0f25d92c94054677714538d9fa

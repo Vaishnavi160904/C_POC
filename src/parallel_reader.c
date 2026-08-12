@@ -120,7 +120,11 @@ static void *WorkerThread(void *arg)
 int ReadResumesParallel(char filepaths[][MAX_PATH_LEN], int fileCount,
                         ResumeReadResult *results, int maxThreads)
 {
+<<<<<<< HEAD
     if (!filepaths || fileCount <= 0 || !results) return 0;
+=======
+    if (fileCount <= 0 || !results) return 0;
+>>>>>>> 931690db4b496c0f25d92c94054677714538d9fa
     if (maxThreads < 1) maxThreads = 1;
     if (maxThreads > MAX_WORKER_THREADS) maxThreads = MAX_WORKER_THREADS;
 
@@ -203,7 +207,11 @@ int ReadResumesParallel(char filepaths[][MAX_PATH_LEN], int fileCount,
                         ResumeReadResult *results, int maxThreads)
 {
     (void)maxThreads;
+<<<<<<< HEAD
     if (!filepaths || fileCount <= 0 || !results) return 0;
+=======
+    if (fileCount <= 0 || !results) return 0;
+>>>>>>> 931690db4b496c0f25d92c94054677714538d9fa
 
     for (int i = 0; i < fileCount; i++) {
         memset(&results[i], 0, sizeof(results[i]));

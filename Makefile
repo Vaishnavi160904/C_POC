@@ -3,7 +3,10 @@
 
 CC = gcc
 CFLAGS = -Wall -Wextra -g -Iinclude -pthread
+<<<<<<< HEAD
 COVERAGE_CFLAGS = -Wall -Wextra -g -O0 -fprofile-arcs -ftest-coverage -Iinclude -pthread
+=======
+>>>>>>> 931690db4b496c0f25d92c94054677714538d9fa
 SRC_DIR = src
 OBJ_DIR = obj
 BIN = hr_resume_screener.exe
@@ -33,7 +36,10 @@ run: all
 
 clean:
 	rm -rf $(OBJ_DIR) $(BIN) run_tests run_tests.exe
+<<<<<<< HEAD
 	rm -f *.gcda *.gcno *.gcov coverage_source.txt
+=======
+>>>>>>> 931690db4b496c0f25d92c94054677714538d9fa
 
 # ---- CUnit test suite (unit + integration + functional + performance) ----
 # Requires libcunit1-dev (Linux/WSL: apt install libcunit1-dev) or the
@@ -49,6 +55,7 @@ test: $(TEST_BIN)
 $(TEST_BIN): $(SOURCES) $(TEST_SOURCES)
 	$(CC) $(CFLAGS) -Itests/include -o $@ $(filter-out main.c,$(SOURCES)) $(TEST_SOURCES) -lcunit $(LDLIBS)
 
+<<<<<<< HEAD
 cppcheck:
 	cppcheck --enable=all --inconclusive --std=c11 --force -Iinclude --suppress=missingIncludeSystem --error-exitcode=1 src main.c tests
 
@@ -135,3 +142,6 @@ coverage:
 coverage-clean:
 	rm -rf $(COVERAGE_DIR) $(COVERAGE_BIN)
 	rm -f *.gcda *.gcno *.gcov coverage_source.txt
+=======
+.PHONY: all run clean test
+>>>>>>> 931690db4b496c0f25d92c94054677714538d9fa

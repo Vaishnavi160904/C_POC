@@ -3,6 +3,12 @@
 
 #include "common.h"
 
+<<<<<<< HEAD
+=======
+/* Legacy/manual top-N selection retained for backward compatibility. */
+int SelectTopCandidates(int topN);
+
+>>>>>>> 931690db4b496c0f25d92c94054677714538d9fa
 /* Automatically shortlist every candidate whose final score is >= threshold. */
 int ShortlistByScoreThreshold(int threshold);
 

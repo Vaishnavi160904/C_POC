@@ -30,7 +30,10 @@ int main(void)
 
     /* Unit */
     RegisterUtilsTests();
+<<<<<<< HEAD
     RegisterCoverageBoostTests();
+=======
+>>>>>>> 931690db4b496c0f25d92c94054677714538d9fa
     RegisterAuthTests();
     RegisterTokenizerTests();
     RegisterStopwordsTests();

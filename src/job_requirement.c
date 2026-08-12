@@ -50,3 +50,67 @@ int UploadJobRequirement(const char *filepath)
     return count;
 }
 
+<<<<<<< HEAD
+=======
+int ReadRequirement(const char *filepath)
+{
+    int count = LoadRequirementFromFile(filepath);
+    printf("[job_requirement] Required Skills (%d):\n", count);
+    for (int i = 0; i < jobSkillCount; i++) printf("  - %s\n", jobSkills[i]);
+    return count;
+}
+
+int EditRequirement(const char *filepath)
+{
+    int count = LoadRequirementFromFile(filepath);
+    printf("[job_requirement] Reloaded requirement file '%s' (%d skills)\n", filepath, count);
+    return count;
+}
+
+int DeleteRequirement(const char *filepath)
+{
+    if (remove(filepath) == 0) {
+        jobSkillCount = 0;
+        printf("[job_requirement] Deleted requirement file '%s'\n", filepath);
+        return 1;
+    }
+    printf("[job_requirement] Delete failed: '%s' not found\n", filepath);
+    return 0;
+}
+
+int AddSkillToRequirement(const char *skill)
+{
+    if (jobSkillCount >= MAX_JOB_SKILLS) return 0;
+    for (int i = 0; i < jobSkillCount; i++)
+        if (StrCaseCmp(jobSkills[i], skill) == 0) return 0; /* already present */
+
+    strncpy(jobSkills[jobSkillCount], skill, MAX_WORD_LEN - 1);
+    jobSkills[jobSkillCount][MAX_WORD_LEN - 1] = '\0';
+    jobSkillCount++;
+
+    FILE *fp = fopen(JOB_REQ_FILE, "a");
+    if (fp) { fprintf(fp, "%s\n", skill); fclose(fp); }
+    printf("[job_requirement] Added skill '%s'\n", skill);
+    return 1;
+}
+
+int RemoveSkillFromRequirement(const char *skill)
+{
+    int found = -1;
+    for (int i = 0; i < jobSkillCount; i++)
+        if (StrCaseCmp(jobSkills[i], skill) == 0) { found = i; break; }
+    if (found < 0) return 0;
+
+    for (int i = found; i < jobSkillCount - 1; i++)
+        strcpy(jobSkills[i], jobSkills[i + 1]);
+    jobSkillCount--;
+
+    FILE *fp = fopen(JOB_REQ_FILE, "w");
+    if (fp) {
+        for (int i = 0; i < jobSkillCount; i++) fprintf(fp, "%s\n", jobSkills[i]);
+        fclose(fp);
+    }
+    printf("[job_requirement] Removed skill '%s'\n", skill);
+    return 1;
+}
+>>>>>>> 931690db4b496c0f25d92c94054677714538d9fa

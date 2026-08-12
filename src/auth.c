@@ -267,8 +267,13 @@ int Signup(const char *username, const char *password)
     }
 
     FILE *fp = fopen(USERS_FILE, "r");
+<<<<<<< HEAD
     if (fp) {
         char line[AUTH_LINE_LEN];
+=======
+    char line[AUTH_LINE_LEN];
+    if (fp) {
+>>>>>>> 931690db4b496c0f25d92c94054677714538d9fa
         while (fgets(line, sizeof(line), fp)) {
             char existing[MAX_EMAIL_LEN];
             if (sscanf(line, "%255[^:]", existing) == 1 && StrCaseCmp(existing, email) == 0) {
@@ -328,8 +333,13 @@ int Login(const char *username, const char *password)
         if (sscanf(line, "%255[^:]:%32[^:]:%64[^\n]", existing, saltHex, storedHash) == 3 &&
             StrCaseCmp(existing, email) == 0) {
             unsigned char salt[AUTH_SALT_BYTES];
+<<<<<<< HEAD
             if (HexToBytes(saltHex, salt, sizeof(salt))) {
                 char calculated[HASH_HEX_LEN + 1];
+=======
+            char calculated[HASH_HEX_LEN + 1];
+            if (HexToBytes(saltHex, salt, sizeof(salt))) {
+>>>>>>> 931690db4b496c0f25d92c94054677714538d9fa
                 HashPassword(password ? password : "", salt, calculated);
                 memset(salt, 0, sizeof(salt));
                 if (ConstantTimeHexEqual(storedHash, calculated)) {
@@ -390,8 +400,13 @@ int ChangePassword(const char *username, const char *old_pw, const char *new_pw)
         int parsed = sscanf(line, "%255[^:]:%32[^:]:%64[^\n]", existing, saltHex, storedHash);
         if (parsed == 3 && StrCaseCmp(existing, email) == 0) {
             unsigned char salt[AUTH_SALT_BYTES];
+<<<<<<< HEAD
             if (HexToBytes(saltHex, salt, sizeof(salt))) {
                 char calculated[HASH_HEX_LEN + 1];
+=======
+            char calculated[HASH_HEX_LEN + 1];
+            if (HexToBytes(saltHex, salt, sizeof(salt))) {
+>>>>>>> 931690db4b496c0f25d92c94054677714538d9fa
                 HashPassword(old_pw ? old_pw : "", salt, calculated);
                 memset(salt, 0, sizeof(salt));
                 if (ConstantTimeHexEqual(storedHash, calculated)) {
