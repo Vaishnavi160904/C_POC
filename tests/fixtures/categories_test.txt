@@ -1,0 +1,17 @@
+Backend
+Python
+Django
+FastAPI
+
+Frontend
+React
+HTML
+CSS
+
+Database
+MongoDB
+MySQL
+
+Tools
+Git
+Docker

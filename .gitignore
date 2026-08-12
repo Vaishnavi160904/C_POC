@@ -1,0 +1,32 @@
+# Build artifacts
+*.exe
+*.o
+obj/
+hr_resume_screener
+run_tests
+tests_tmp_*
+
+# Generated reports/output (keep the folder structure, ignore contents)
+output/reports/*.csv
+output/reports/*.txt
+output/shortlisted/*.txt
+output/analysis/*.txt
+output/logs/*.txt
+output/extracted_text/*.txt
+
+# User accounts database (contains passwords - don't commit)
+data/users.dat
+data/users.dat.cunit_backup*
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.tmp.txt
+
+# GCC coverage artifacts
+*.gcda
+*.gcno
+*.gcov
+coverage_source.txt
+
+data/users.dat.coverage_backup

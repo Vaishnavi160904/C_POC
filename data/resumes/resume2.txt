@@ -1,0 +1,25 @@
+RAHUL KUMAR
+
+Email: rahul.kumar@example.com
+Phone: 9123456780
+
+College: National Institute of Technology
+B.E Information Technology
+
+5 years experience as a backend engineer
+
+Skills
+Python
+SQL
+Docker
+Git
+AWS
+Java
+MySQL
+
+Projects
+Inventory Management System
+Banking Backend API
+
+Certifications
+Docker Certified Associate

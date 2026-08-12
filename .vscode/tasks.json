@@ -1,0 +1,45 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build HR Resume Screening System",
+      "type": "shell",
+      "command": "gcc",
+      "args": [
+        "-Wall",
+        "-Wextra",
+        "-g",
+        "-Iinclude",
+        "-pthread",
+        "src/auth.c",
+        "src/job_requirement.c",
+        "src/resume_upload.c",
+        "src/resume_processing.c",
+        "src/tokenizer.c",
+        "src/stopwords.c",
+        "src/analyzer.c",
+        "src/keyword_category.c",
+        "src/info_extractor.c",
+        "src/skill_match.c",
+        "src/scoring.c",
+        "src/ranking.c",
+        "src/shortlist.c",
+        "src/search.c",
+        "src/report.c",
+        "src/dashboard.c",
+        "src/utils.c",
+        "src/globals.c",
+        "src/parallel_reader.c",
+        "main.c",
+        "-o",
+        "hr_resume_screener.exe"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": ["$gcc"],
+      "detail": "Compiles all module source files + main.c into hr_resume_screener.exe (files listed explicitly - works under PowerShell, cmd, and bash alike)"
+    }
+  ]
+}

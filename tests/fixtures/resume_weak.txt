@@ -1,0 +1,14 @@
+BOB WEAK
+
+Email: bob.weak@example.com
+Phone: 9876500002
+
+College: Example College
+BCA Computer Applications
+
+Skills
+HTML
+CSS
+
+Projects
+Personal Portfolio Website

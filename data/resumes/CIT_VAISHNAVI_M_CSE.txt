@@ -1,0 +1,56 @@
+VAISHNAVI M
+vaishnavim.cse2022@citchennai.net | +91 9585752915 | Linkedin | GitHub
+
+EDUCATION
+B.E Computer Science and Engineering Nov 2022 - May 2026
+Chennai Institute Of Technology CGPA: 8.6
+
+INTERNSHIP AND EXPERIENCE
+Full stack-Developer - GetMax Healthcare Pvt Ltd. Nov 2023 - Dec 2023
+- Worked as a Frontend Developer Intern, build company's official website with ReactJS under a collaborative tech team.
+- Designed and developed a responsive, modern UI using Figma prototypes and React component for navigation.
+- Integrated Firebase for real-time database updates and data storage, enhancing site performance and user interactivity.
+
+Full stack-Developer - Altruitry Jun 2024 - Jul 2024
+- Responsible for styling and ensuring responsive UI across devices, maintaining a layout and user experience.
+- Conducted functionality testing of software components and verified stable features before pushing code to Git.
+- Gained hands-on experience with Git for version control, enhancing collaboration and code management practices.
+
+PROJECTS
+Vanoli | Flutter, Firebase, just_audio
+- Built a cross-platform app for music, podcasts, and radio with Firebase authentication and Firestore for real-time data.
+- Added background playback, offline downloads, sleep timer, and favorites using just_audio, audio_service, and Provider.
+- Designed a scalable app structure with reusable widgets and planned AI-powered recommendations and analytics.
+
+Web Application for Virtual Blood Bank | React, Node.js, Express.js, MongoDB
+- Built a web application with multi-role functionality, dynamic login/registration forms, and secure authentication
+- Used Redux Toolkit for state management, including actions, reducers, loading states, and API request handling
+- Designed a scalable architecture with reusable UI and future plans for inventory management and advanced features.
+
+Real Estate Marketplace Web App | React, Node.js, MongoDB, Firebase, Redux
+- Built a full-stack real estate platform with user auth, property listing CRUD, and Firebase Storage for image uploads.
+- Implemented advanced search with filters, pagination, and Swiper-based sliders; managed state using Redux Toolkit.
+- Deployed the app on Render with Express.js APIs, MongoDB integration via Mongoose, and frontend using Tailwind CSS.
+
+COMPETITIVE PROGRAMMING
+Leetcode Max rating 1351, Solved 400+ problems, Attended 80+ contests, achieved global rank of 254 in contest 438.
+Codechef Max rating 1158, 1 star level, Attended 60+ contests, achieved global rank of 8283 in starters contest 154.
+
+TECHNOLOGIES AND SKILLS
+Programming Languages and Scripting: C++, Java, Python, SQL, HTML, CSS, JavaScript
+Technologies: React.JS, Node.JS, Express.JS, Flutter, Django, TailwindCSS, Material UI, Selenium, pytest
+Machine Learning and Data Science Libraries: TensorFlow, Scikit-learn, OpenCV, NumPy, Pandas
+Tools: Figma, Git, Cisco Packet Tracer, PyCharm, Android Studio, pgAdmin, PowerBI, Postman
+
+CERTIFICATIONS
+- Meta Front-End Developer (Coursera)
+- Introduction to IOT (NPTEL Exam - IIT Madras)
+- Cisco CCNA Networking Essentials Course (CISCO)
+- Introduction to MongoDB (MongoDB)
+- Cisco Cybersecurity Essentials Course (CISCO)
+- Android Developer Virtual Internship Course (Eduskills)
+
+VOLUNTEERING
+National Cadet Corps: Serving as Company Sergeant Major of my College NCC Contigent and leading 49 NCC cadets of my college.
+Hackez (Department Symposium): Served as Tech Event Organizer, managing event planning, logistics, and execution for technical competitions and sessions.
+Takshashila (College Techno-Cultural Fest): Volunteered as Workshop Organizer, coordinating with speakers and participants to ensure smooth workshop delivery.

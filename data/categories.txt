@@ -1,0 +1,1051 @@
+Programming Languages
+C
+C++
+C#
+Java
+Python
+JavaScript
+TypeScript
+Go
+Rust
+Kotlin
+Swift
+Dart
+PHP
+Ruby
+R
+MATLAB
+Scala
+Perl
+Lua
+Haskell
+Elixir
+Erlang
+Objective-C
+Groovy
+Fortran
+COBOL
+Ada
+Assembly
+Bash
+PowerShell
+SQL
+PL/SQL
+T-SQL
+VB.NET
+F#
+Julia
+GDScript
+Solidity
+VHDL
+Verilog
+
+Web Frontend
+HTML
+HTML5
+CSS
+CSS3
+Sass
+SCSS
+Less
+Bootstrap
+Tailwind CSS
+Material UI
+Ant Design
+Chakra UI
+React
+React Native
+Next.js
+Gatsby
+Vue.js
+Nuxt.js
+Angular
+Svelte
+SvelteKit
+Ember.js
+Backbone.js
+jQuery
+Alpine.js
+HTMX
+Lit
+Web Components
+Stencil
+SolidJS
+Qwik
+Astro
+Remix
+Electron
+Ionic
+Capacitor
+Three.js
+D3.js
+Chart.js
+ECharts
+
+Backend and APIs
+Node.js
+Express.js
+NestJS
+Fastify
+Koa.js
+Hapi.js
+Django
+Flask
+FastAPI
+Tornado
+Pyramid
+Bottle
+Sanic
+Spring
+Spring Boot
+Spring MVC
+Spring Security
+Micronaut
+Quarkus
+Jakarta EE
+JAX-RS
+JAX-WS
+ASP.NET
+ASP.NET Core
+Blazor
+Laravel
+Symfony
+CodeIgniter
+CakePHP
+Ruby on Rails
+Sinatra
+Phoenix
+Actix Web
+Axum
+Gin
+Echo
+Fiber
+Chi
+Rocket
+Play Framework
+
+Databases and Data Stores
+MySQL
+PostgreSQL
+Oracle Database
+Microsoft SQL Server
+SQLite
+MariaDB
+MongoDB
+CouchDB
+Cassandra
+DynamoDB
+Redis
+Memcached
+Neo4j
+ArangoDB
+Couchbase
+Firebase Realtime Database
+Cloud Firestore
+Amazon Aurora
+Amazon RDS
+Azure SQL Database
+Azure Cosmos DB
+Google Cloud SQL
+Google Cloud Spanner
+Snowflake
+Databricks SQL
+ClickHouse
+DuckDB
+BigQuery
+Elasticsearch
+OpenSearch
+Solr
+InfluxDB
+TimescaleDB
+CockroachDB
+TiDB
+YugabyteDB
+HBase
+Hive
+Impala
+Presto
+
+Cloud Platforms
+AWS
+Amazon EC2
+Amazon S3
+Amazon VPC
+Amazon IAM
+Amazon Lambda
+Amazon ECS
+Amazon EKS
+Amazon Fargate
+Amazon CloudFront
+Amazon Route 53
+Amazon DynamoDB
+Amazon Redshift
+Amazon SQS
+Amazon SNS
+Amazon API Gateway
+Amazon CloudWatch
+Amazon EventBridge
+AWS Glue
+AWS Athena
+AWS Step Functions
+Azure
+Azure Virtual Machines
+Azure Blob Storage
+Azure Functions
+Azure Kubernetes Service
+Azure DevOps
+Azure Active Directory
+Microsoft Entra ID
+Azure App Service
+Azure SQL
+Azure Data Factory
+Azure Synapse
+Azure Monitor
+Google Cloud
+Google Compute Engine
+Google Cloud Storage
+
+DevOps and CI/CD
+Docker
+Docker Compose
+Kubernetes
+Helm
+OpenShift
+Podman
+containerd
+CRI-O
+Jenkins
+GitHub Actions
+GitLab CI/CD
+CircleCI
+Travis CI
+Azure Pipelines
+TeamCity
+Bamboo
+Argo CD
+Argo Workflows
+Flux CD
+Tekton
+Spinnaker
+Ansible
+Terraform
+Pulumi
+Packer
+Vagrant
+Chef
+Puppet
+SaltStack
+Nix
+NixOS
+Make
+CMake
+Meson
+Bazel
+Gradle
+Maven
+Nexus Repository
+JFrog Artifactory
+Sonatype Nexus
+
+Linux and Systems
+Linux
+Ubuntu
+Debian
+Fedora
+CentOS
+RHEL
+Rocky Linux
+AlmaLinux
+Arch Linux
+Alpine Linux
+SUSE Linux
+Unix
+FreeBSD
+OpenBSD
+NetBSD
+Windows Server
+Windows
+macOS
+WSL
+systemd
+SysVinit
+Zsh
+Fish Shell
+SSH
+SCP
+SFTP
+rsync
+cron
+systemd timers
+sed
+awk
+grep
+findutils
+coreutils
+GDB
+strace
+ltrace
+Valgrind
+
+Networking and Protocols
+TCP/IP
+IPv4
+IPv6
+HTTP
+HTTPS
+HTTP/2
+HTTP/3
+QUIC
+DNS
+DHCP
+ARP
+ICMP
+BGP
+OSPF
+RIP
+MPLS
+NAT
+PAT
+VLAN
+VXLAN
+STP
+RSTP
+Ethernet
+Wi-Fi
+Wi-Fi 6
+Bluetooth
+Bluetooth Low Energy
+NFC
+Zigbee
+Z-Wave
+LoRaWAN
+MQTT
+AMQP
+CoAP
+WebSocket
+WebRTC
+FTP
+FTPS
+SMTP
+IMAP
+
+Cybersecurity
+Cybersecurity
+Information Security
+Application Security
+Network Security
+Cloud Security
+Zero Trust
+IAM
+Identity Management
+Access Control
+RBAC
+ABAC
+MFA
+OAuth
+OAuth 2.0
+OpenID Connect
+SAML
+JWT
+PKI
+X.509
+Cryptography
+AES
+RSA
+ECC
+SHA-256
+SHA-3
+HMAC
+Digital Signatures
+TLS
+SSL
+HTTPS Security
+OWASP
+OWASP Top 10
+CWE
+CVSS
+Vulnerability Assessment
+Penetration Testing
+Ethical Hacking
+Threat Modeling
+Security Testing
+SAST
+
+Data Science and Statistics
+Python Data Science
+NumPy
+Pandas
+Polars
+SciPy
+Statsmodels
+Matplotlib
+Seaborn
+Plotly
+Altair
+Bokeh
+Jupyter
+JupyterLab
+Jupyter Notebook
+Apache Zeppelin
+RStudio
+Tidyverse
+dplyr
+tidyr
+ggplot2
+data.table
+Shiny
+scikit-learn
+XGBoost
+LightGBM
+CatBoost
+Feature Engineering
+Feature Selection
+Data Cleaning
+Data Wrangling
+Exploratory Data Analysis
+Statistical Analysis
+Hypothesis Testing
+Regression Analysis
+Linear Regression
+Logistic Regression
+Time Series Analysis
+ARIMA
+Prophet
+
+Machine Learning and AI
+Machine Learning
+Deep Learning
+Artificial Intelligence
+TensorFlow
+TensorFlow Lite
+TensorFlow.js
+Keras
+PyTorch
+PyTorch Lightning
+JAX
+MXNet
+ONNX
+ONNX Runtime
+OpenCV
+MediaPipe
+Hugging Face
+Transformers
+BERT
+GPT
+LLM
+Large Language Models
+Generative AI
+RAG
+Retrieval Augmented Generation
+LangChain
+LlamaIndex
+FAISS
+Vector Database
+Embeddings
+Sentence Transformers
+spaCy
+NLTK
+Gensim
+Computer Vision
+Image Classification
+Object Detection
+Semantic Segmentation
+Face Recognition
+OCR
+Speech Recognition
+
+Big Data and Data Engineering
+Apache Hadoop
+HDFS
+YARN
+MapReduce
+Apache Spark
+PySpark
+Spark SQL
+Spark Streaming
+Apache Flink
+Apache Beam
+Apache Kafka
+Kafka Streams
+Kafka Connect
+Apache Airflow
+Apache NiFi
+Apache Oozie
+Apache Sqoop
+Apache HBase
+Apache Hive
+Apache Pig
+Apache Impala
+Apache Storm
+Apache Samza
+Apache Druid
+Apache Iceberg
+Apache Hudi
+Delta Lake
+Databricks
+dbt
+Fivetran
+Airbyte
+Talend
+Informatica
+SSIS
+Google Dataflow
+Dataflow
+Data Warehouse
+
+Databases and Querying
+NoSQL
+DML
+DDL
+DCL
+TCL
+Stored Procedures
+Triggers
+Views
+Indexes
+Query Optimization
+Execution Plans
+Transactions
+ACID
+CAP Theorem
+Database Replication
+Database Sharding
+Partitioning
+Horizontal Partitioning
+Vertical Partitioning
+Connection Pooling
+ORM
+Hibernate
+JPA
+Entity Framework
+Entity Framework Core
+SQLAlchemy
+Django ORM
+Sequelize
+TypeORM
+Prisma
+Mongoose
+GORM
+MyBatis
+JDBC
+ODBC
+ADO.NET
+Flyway
+
+Testing and Quality
+Unit Testing
+Integration Testing
+Functional Testing
+System Testing
+Regression Testing
+Smoke Testing
+Sanity Testing
+Acceptance Testing
+Performance Testing
+Load Testing
+Stress Testing
+Endurance Testing
+API Testing
+UI Testing
+Test Automation
+Test Driven Development
+Behavior Driven Development
+BDD
+TDD
+CUnit
+CTest
+Google Test
+Catch2
+CMocka
+Unity Test Framework
+pytest
+unittest
+nose2
+Jest
+Mocha
+Jasmine
+Vitest
+Cypress
+Playwright
+Selenium
+WebDriver
+Appium
+Postman
+Newman
+
+Version Control and Collaboration
+Git
+GitHub
+GitLab
+Bitbucket
+Azure Repos
+GitHub Desktop
+Git LFS
+Git Flow
+Subversion
+SVN
+Mercurial
+Perforce
+TFS
+SourceTree
+Fork
+GitKraken
+Gitea
+Gerrit
+Code Review
+Pull Requests
+Merge Requests
+Branching Strategies
+Semantic Versioning
+Conventional Commits
+Changelog Management
+Release Management
+Issue Tracking
+Jira
+Confluence
+Trello
+Azure Boards
+GitHub Issues
+GitLab Issues
+Slack
+Microsoft Teams
+Mattermost
+Discord
+Notion
+Linear
+Asana
+
+Mobile Development
+Android
+Android SDK
+Android Studio
+Jetpack Compose
+Android Jetpack
+Kotlin Android
+Java Android
+Gradle Android
+NDK
+ADB
+iOS
+iOS SDK
+Xcode
+SwiftUI
+UIKit
+Objective-C iOS
+Flutter
+Dart Flutter
+Expo
+Xamarin
+MAUI
+.NET MAUI
+Cordova
+PhoneGap
+NativeScript
+Kotlin Multiplatform
+KMM
+Jetpack Navigation
+Room Database
+Core Data
+Realm
+Firebase Cloud Messaging
+FCM
+Firebase Authentication
+Firebase Analytics
+App Store Connect
+Google Play Console
+
+Embedded and IoT
+Embedded C
+Embedded C++
+ARM
+ARM Cortex-M
+ARM Cortex-A
+AVR
+PIC
+ESP32
+ESP8266
+Arduino
+Raspberry Pi
+STM32
+NXP LPC
+NXP i.MX
+TI MSP430
+TI Tiva C
+Renesas RX
+Microchip MPLAB
+Keil MDK
+IAR Embedded Workbench
+PlatformIO
+FreeRTOS
+Zephyr RTOS
+ThreadX
+RTOS
+Bare Metal
+Device Drivers
+Firmware
+Bootloader
+U-Boot
+JTAG
+SWD
+UART
+SPI
+I2C
+CAN
+LIN
+Modbus
+Ethernet Embedded
+MQTT IoT
+
+Cloud Native and Architecture
+Microservices
+Monolith
+Service Oriented Architecture
+SOA
+Event Driven Architecture
+EDA
+Serverless
+API Gateway
+Service Mesh
+Istio
+Linkerd
+Envoy
+Kong
+NGINX
+HAProxy
+Traefik
+Reverse Proxy
+Load Balancing
+Caching
+CDN
+Distributed Systems
+Distributed Computing
+Fault Tolerance
+High Availability
+Scalability
+Observability
+SRE
+Site Reliability Engineering
+Infrastructure as Code
+IaC
+12 Factor App
+Domain Driven Design
+DDD
+Clean Architecture
+Hexagonal Architecture
+CQRS
+Event Sourcing
+Saga Pattern
+Circuit Breaker
+Bulkhead Pattern
+
+Software Engineering
+Object Oriented Programming
+Functional Programming
+Procedural Programming
+Data Structures
+Algorithms
+Design Patterns
+SOLID Principles
+Clean Code
+Code Refactoring
+Static Analysis
+Code Quality
+Complexity Analysis
+Big O
+Memory Management
+Concurrency
+Multithreading
+Multiprocessing
+Parallel Programming
+Asynchronous Programming
+Thread Safety
+Race Conditions
+Deadlock Prevention
+Memory Leak Detection
+Debugging
+Profiling
+GDB Debugging
+LLDB Debugging
+API Design
+SDK Development
+Library Development
+Compiler Design
+Interpreters
+Lexing
+Parsing
+Regular Expressions
+Finite State Machines
+Serialization
+Deserialization
+JSON
+XML
+
+Enterprise and Integration
+Apache Camel
+MuleSoft
+Mule Runtime
+WSO2
+IBM Integration Bus
+IBM MQ
+RabbitMQ
+Apache ActiveMQ
+ActiveMQ Artemis
+Apache Pulsar
+NATS
+ZeroMQ
+gRPC
+SOAP
+WSDL
+OpenAPI
+Swagger
+AsyncAPI
+API Management
+API Security
+ESB
+Enterprise Service Bus
+Message Queues
+Publish Subscribe
+Event Streaming
+Webhooks
+ETL Integration
+SSO
+Single Sign On
+LDAP
+Active Directory
+Kerberos
+RADIUS
+SFTP Integration
+EDI
+EDIFACT
+XML Schema
+XSD
+XSLT
+XPath
+
+Dev Tools and IDEs
+Visual Studio Code
+Visual Studio
+IntelliJ IDEA
+Eclipse
+NetBeans
+PyCharm
+WebStorm
+PhpStorm
+CLion
+Rider
+Vim
+Neovim
+Emacs
+Sublime Text
+Notepad++
+Code::Blocks
+Qt Creator
+Eclipse CDT
+Keil uVision
+STM32CubeIDE
+MPLAB X
+Arduino IDE
+PlatformIO IDE
+Spyder
+Anaconda
+Miniconda
+Conda
+pip
+Poetry
+pipenv
+virtualenv
+npm
+npx
+Yarn
+pnpm
+
+UI UX and Design Technology
+Figma
+Adobe XD
+Sketch
+InVision
+Zeplin
+Framer
+Adobe Photoshop
+Adobe Illustrator
+Adobe After Effects
+Adobe Premiere Pro
+Blender
+Unity
+Unreal Engine
+Godot
+Babylon.js
+WebGL
+OpenGL
+Vulkan
+DirectX
+Canvas API
+SVG
+Accessibility
+WCAG
+Responsive Design
+Design Systems
+UI Design
+UX Design
+Interaction Design
+Wireframing
+Prototyping
+Usability Testing
+User Research
+Information Architecture
+Atomic Design
+Material Design
+Human Interface Guidelines
+CSS Grid
+Flexbox
+BEM
+
+Networking Hardware and Infrastructure
+Cisco IOS
+Cisco IOS XE
+Cisco IOS XR
+Cisco NX-OS
+Cisco Packet Tracer
+Cisco Catalyst
+Cisco Nexus
+Cisco ASA
+Cisco Firepower
+Juniper Junos
+Juniper SRX
+Arista EOS
+Palo Alto PAN-OS
+FortiOS
+MikroTik RouterOS
+Ubiquiti UniFi
+VMware ESXi
+VMware vSphere
+VMware vCenter
+Hyper-V
+KVM
+QEMU
+VirtualBox
+Proxmox
+OpenStack
+Ceph
+GlusterFS
+NFS
+SMB
+CIFS
+iSCSI
+Fibre Channel
+SAN
+NAS
+RAID
+IPMI
+SNMP
+NetFlow
+sFlow
+Wireshark
+
+Blockchain and Web3
+Blockchain
+Bitcoin
+Ethereum
+Smart Contracts
+Web3
+Web3.js
+Ethers.js
+Hardhat
+Truffle
+Foundry
+Remix IDE
+MetaMask
+WalletConnect
+OpenZeppelin
+ERC-20
+ERC-721
+ERC-1155
+DeFi
+Decentralized Finance
+NFT
+DAOs
+IPFS
+Filecoin
+Polygon
+Arbitrum
+Optimism
+Avalanche
+Solana
+Cardano
+Polkadot
+Chainlink
+Hyperledger Fabric
+Hyperledger Besu
+Corda
+Substrate
+Rust Blockchain
+Consensus Algorithms
+Proof of Work
+Proof of Stake
+
+Business Intelligence and Analytics
+Power BI
+Tableau
+Qlik Sense
+QlikView
+Looker
+Looker Studio
+MicroStrategy
+SAS
+SAS Viya
+SAS Enterprise Guide
+SAP BusinessObjects
+SAP Analytics Cloud
+IBM Cognos
+Apache Superset
+Metabase
+Redash
+Grafana
+Excel
+Microsoft Excel
+Pivot Tables
+Power Query
+Power Pivot
+DAX
+MDX
+SSAS
+SSRS
+Data Studio
+Business Intelligence
+Business Analytics
+Data Analytics
+Data Reporting
+Dashboarding
+KPI
+Key Performance Indicators
+Data Storytelling
+OLAP Cubes
+Data Mart
+Dimensional Modeling
+
+Specialized Engineering
+GIS
+Geospatial Analysis
+QGIS
+ArcGIS
+PostGIS
+Remote Sensing
+Computer Aided Design
+CAD
+AutoCAD
+SolidWorks
+CATIA
+ANSYS
+MATLAB Simulink
+Simulink
+LabVIEW
+Altium Designer
+KiCad
+Eagle CAD
+LTspice
+SPICE
+PCB Design
+FPGA
+Xilinx Vivado
+Intel Quartus
+ModelSim
